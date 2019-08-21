@@ -7,37 +7,37 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/slot_three"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:background="@color/colorPrimary"
         android:text="ว่าง 3"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/slot_two"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button2" />
+        app:layout_constraintStart_toEndOf="@+id/slot_two" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/slot_one"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:background="@color/colorPrimary"
         android:text="ว่าง 1"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button2"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintBaseline_toBaselineOf="@+id/slot_two"
+        app:layout_constraintEnd_toStartOf="@+id/slot_two"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/slot_two"
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_marginTop="50dp"
         android:background="@color/colorPrimary"
         android:text="ว่าง 2"
-        app:layout_constraintEnd_toStartOf="@+id/button3"
+        app:layout_constraintEnd_toStartOf="@+id/slot_three"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button"
+        app:layout_constraintStart_toEndOf="@+id/slot_one"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
@@ -51,7 +51,7 @@
         app:layout_constraintBottom_toTopOf="@+id/editText2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintTop_toBottomOf="@+id/slot_three" />
 
     <EditText
         android:id="@+id/editText2"
