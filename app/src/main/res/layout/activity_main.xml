@@ -10,6 +10,7 @@
         android:id="@+id/button3"
         android:layout_width="100dp"
         android:layout_height="50dp"
+        android:background="@color/colorPrimary"
         android:text="ว่าง 3"
         app:layout_constraintBaseline_toBaselineOf="@+id/button2"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,6 +21,7 @@
         android:id="@+id/button"
         android:layout_width="100dp"
         android:layout_height="50dp"
+        android:background="@color/colorPrimary"
         android:text="ว่าง 1"
         app:layout_constraintBaseline_toBaselineOf="@+id/button2"
         app:layout_constraintEnd_toStartOf="@+id/button2"
@@ -31,6 +33,7 @@
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:layout_marginTop="50dp"
+        android:background="@color/colorPrimary"
         android:text="ว่าง 2"
         app:layout_constraintEnd_toStartOf="@+id/button3"
         app:layout_constraintHorizontal_bias="0.5"
@@ -42,7 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
-        android:hint="@string/license_plate"
+        android:hint="@string/car_owner"
         android:inputType="textPersonName"
         android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/editText2"
@@ -71,29 +74,31 @@
         android:hint="@string/car_owner"
         android:inputType="textPersonName"
         android:textAlignment="center"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        app:layout_constraintBottom_toTopOf="@+id/edit_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/edit_button"
         android:layout_width="150dp"
         android:layout_height="60dp"
+        android:background="@color/colorAccent"
         android:text="แก้ไข"
-        app:layout_constraintBaseline_toBaselineOf="@+id/button5"
-        app:layout_constraintEnd_toStartOf="@+id/button5"
+        app:layout_constraintBaseline_toBaselineOf="@+id/delete_button"
+        app:layout_constraintEnd_toStartOf="@+id/delete_button"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/delete_button"
         android:layout_width="150dp"
         android:layout_height="60dp"
         android:layout_marginBottom="60dp"
+        android:background="@android:color/holo_red_dark"
         android:text="ลบ"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/button4" />
+        app:layout_constraintStart_toEndOf="@+id/edit_button" />
 </androidx.constraintlayout.widget.ConstraintLayout>
