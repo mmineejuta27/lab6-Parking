@@ -87,14 +87,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
-            android:hint="@string/car_owner"
+            android:hint="@string/license_plate"
             android:inputType="textPersonName"
+            android:text=""
             android:textAlignment="center"
             app:layout_constraintBottom_toTopOf="@+id/editButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/editText2"
-            android:text=""/>
+            app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
         <Button
             android:id="@+id/editButton"
