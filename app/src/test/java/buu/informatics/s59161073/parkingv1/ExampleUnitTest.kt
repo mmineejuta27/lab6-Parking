@@ -1,4 +1,4 @@
-package buu.informatics.s59161073.parking
+package buu.informatics.s59161073.parkingv1
 
 import org.junit.Test
 

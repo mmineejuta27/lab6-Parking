@@ -1,4 +1,4 @@
-package buu.informatics.s59161073.parking
+package buu.informatics.s59161073.parkingv1
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
