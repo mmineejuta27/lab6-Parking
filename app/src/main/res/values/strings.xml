@@ -16,4 +16,5 @@
     <string name="info_nickname_text">Nickname : Mine</string>
     <string name="user_hintText">Username</string>
     <string name="pass_hintText">Password</string>
+    <string name="about">About</string>
 </resources>
