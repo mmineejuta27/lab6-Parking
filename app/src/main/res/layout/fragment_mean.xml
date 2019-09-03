@@ -1,0 +1,133 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="park1"
+            type="buu.informatics.s59161073.parkingv1.Park" />
+        <variable
+            name="park2"
+            type="buu.informatics.s59161073.parkingv1.Park" />
+        <variable
+            name="park3"
+            type="buu.informatics.s59161073.parkingv1.Park" />
+    </data>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <Button
+            android:id="@+id/slotThree"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:text="ว่าง 3"
+            app:layout_constraintBaseline_toBaselineOf="@+id/slotTwo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/slotTwo" />
+
+        <Button
+            android:id="@+id/slotOne"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:text="ว่าง 1"
+            app:layout_constraintBaseline_toBaselineOf="@+id/slotTwo"
+            app:layout_constraintEnd_toStartOf="@+id/slotTwo"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/slotTwo"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/colorPrimary"
+            android:text="ว่าง 2"
+            app:layout_constraintEnd_toStartOf="@+id/slotThree"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/slotOne"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/car_owner"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/editText2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/slotThree"
+            android:text=""/>
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/car_brand"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/editText3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText"
+            android:text=""/>
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/license_plate"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textAlignment="center"
+            app:layout_constraintBottom_toTopOf="@+id/editButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:background="@color/colorAccent"
+            android:text="แก้ไข"
+            app:layout_constraintBaseline_toBaselineOf="@+id/deleteButton"
+            app:layout_constraintEnd_toStartOf="@+id/deleteButton"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="60dp"
+            android:background="@android:color/holo_red_dark"
+            android:text="ลบ"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/editButton" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+<!--    <FrameLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        tools:context="buu.informatics.s59161073.parkingv1.MeanFragment">-->
+
+<!--        &lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:text="@string/hello_blank_fragment" />-->
+
+<!--    </FrameLayout>-->
+</layout>
+

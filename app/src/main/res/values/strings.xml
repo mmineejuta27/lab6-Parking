@@ -3,4 +3,17 @@
     <string name="car_owner">เจ้าของ</string>
     <string name="car_brand">รุ่นรถ</string>
     <string name="license_plate">ทะเบียนรถ</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_title_text">Login</string>
+    <string name="pass_loginEdit">Password</string>
+    <string name="user_loginEdit">Username</string>
+    <string name="loginButton">Login</string>
+    <string name="info_card_text">59161073</string>
+    <string name="info_name_text">Name: Jutamas</string>
+    <string name="info_surename_text">Surename : Soiraya</string>
+    <string name="info_nickname_text">Nickname : Mine</string>
+    <string name="user_hintText">Username</string>
+    <string name="pass_hintText">Password</string>
 </resources>
