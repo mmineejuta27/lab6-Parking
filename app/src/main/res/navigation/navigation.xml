@@ -9,10 +9,15 @@
         android:label="LoginFragment" >
         <action
             android:id="@+id/action_loginFragment_to_meanFragment"
-            app:destination="@id/meanFragment" />
+            app:destination="@id/meanFragment"
+            app:popUpTo="@+id/loginFragment" />
     </fragment>
     <fragment
         android:id="@+id/meanFragment"
         android:name="buu.informatics.s59161073.parkingv1.MeanFragment"
         android:label="MeanFragment" />
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="buu.informatics.s59161073.parkingv1.InfoFragment"
+        android:label="InfoFragment" />
 </navigation>
